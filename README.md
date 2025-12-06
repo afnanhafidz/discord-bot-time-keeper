@@ -1,5 +1,3 @@
-"# discord-bot-time-keeper" 
-
 Note - I use AWS EC2 (Amazon Linux) to host the bot. Make sure to set up your instance first.
 
 This is basically how you host this bot and run the script on AWS EC2:
