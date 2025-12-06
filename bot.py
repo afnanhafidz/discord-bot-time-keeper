@@ -24,7 +24,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 def fmt(dt: datetime) -> str:
     # format with timezone abbreviation
-    return dt.strftime("%Y-%m-%d %H:%M:%S %Z")
+    return dt.strftime("%d/%m/%Y %H:%M:%S %Z")
 
 async def init_db():
     async with aiosqlite.connect(DB_PATH) as db:
